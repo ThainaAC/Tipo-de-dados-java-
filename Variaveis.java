@@ -4,7 +4,7 @@ public class Variaveis {
         x = 100;
         y = 50;
         soma = x + y;
-        System.out.println("Voce tem \n" + x);
+        System.out.println("Voce tem \n" + x); //para pular linha /n 
         System.out.println("Voce tambem tem \n" + y);
         System.out.println("Voce tem \n" + soma);
         
