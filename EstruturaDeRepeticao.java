@@ -3,7 +3,7 @@ public class EstruturaDeRepeticao {
 
     int cc = 0;
       while (cc<10){
-        System.out.println("teste" + (cc+1));
+        System.out.println("teste de algo" + (cc+1));
         cc++;
       }
      }
