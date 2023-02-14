@@ -1,8 +1,8 @@
 public class EstruturaDeSelecao {
     public static void main(String[] args){
         int idade;
-        idade=19;
-        if (idade <=16)
+        idade=10;
+        if (idade <=18)
         {
             System.out.print( "Apto ao Serviço Nilitar O brigatório!");
 
