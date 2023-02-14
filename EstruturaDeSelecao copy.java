@@ -1,4 +1,4 @@
-public class EstruturaDeSelecao {
+public class EstruturaDeSelecao{
     public static void main(String[] args){
         int idade;
         idade=19;
