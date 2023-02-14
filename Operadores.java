@@ -8,6 +8,6 @@ public class Operadores {
         System.out.printf("x / y = %d\n", x / y);
         System.out.printf("x / y = %2.2f\n", x / (double)y);
         System.out.printf("x %% y = %d\n", x % y);
-    
+            
 }
 }
