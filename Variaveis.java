@@ -5,7 +5,7 @@ public class Variaveis {
         y = 50;
         soma = x + y;
         System.out.println("Voce tem \n" + x);
-        System.out.println("Voce tem \n" + y);
+        System.out.println("Voce tambem tem \n" + y);
         System.out.println("Voce tem \n" + soma);
         
     }
