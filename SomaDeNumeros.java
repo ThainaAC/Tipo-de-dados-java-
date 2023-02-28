@@ -7,7 +7,7 @@ public class SomaDeNumeros {
 
     System.out.println("Informe o valor do primeiro numero: ");
     n1 = input.nextInt();
-    
+        
     System.out.println("Informe o valor do primeiro numero: ");
     n2 = input.nextInt();
 
