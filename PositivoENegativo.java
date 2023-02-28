@@ -12,7 +12,7 @@ public class PositivoENegativo {
             System.out.print(" Seu nuemro é positivo \n");
         } else if ( n1 < 0){
             System.out.print("seu nuemro é negativo \n");
-        } else  if {
+        } else {
             System.out.print("Seu nuemro é 0 \n");
         }
 }
