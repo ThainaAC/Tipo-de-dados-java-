@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class TreinoDois {
     public static void main(String[] args){
         Scanner input = new Scanner (System.in);
-        int nome, n1;
+        int n1;
+        String nome;
 
         
         System.out.println("Informe seu nome : ");
-        nome = input.nextInt();
+        nome = input.next();
 
         System.out.println("Informe sua idade: ");
         n1 = input.nextInt();
