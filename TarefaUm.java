@@ -6,21 +6,21 @@ public class TarefaUm {
         double SalarioAtual, SalarioNovo;
 
         System.out.println("Informe o seu salário atual: ");
-        SalarioAtual = input.nextFloat();
+        SalarioAtual = input.nextDouble();
 
 
         if(SalarioAtual > 1000 && SalarioAtual < 2000)
         {
-            SalarioAtual = SalarioNovo * 1.15;
-            System.out.print("Seu salário vai aumentar 15% \n");
+            SalarioNovo = SalarioAtual * 1.15;
+            System.out.print("Seu salário vai aumentar 15% \n" + SalarioNovo );
         } else if(SalarioAtual > 2000 && SalarioAtual < 3000)
         {
-            SalarioAtual = SalarioNovo * 1.10;
-            System.out.print("Seu salário vai aumentar 10% \n");
+            SalarioNovo = SalarioAtual * 1.10;
+            System.out.print("Seu salário vai aumentar 10% \n" + SalarioNovo  );
         } else if(SalarioAtual > 3000)
         {
-            SalarioAtual = SalarioNovo * 1.05;
-            System.out.print("Seu salário vai aumentar 5% \n");
+            SalarioNovo = SalarioAtual * 1.05;
+            System.out.print("Seu salário vai aumentar 5% \n"  + SalarioNovo );
         }
     
     
