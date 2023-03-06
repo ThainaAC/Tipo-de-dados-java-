@@ -22,7 +22,5 @@ public class TarefaUm {
             SalarioNovo = SalarioAtual * 1.05;
             System.out.print("Seu salário vai aumentar 5% \n"  + SalarioNovo );
         }
-    
-    
 }
 }
