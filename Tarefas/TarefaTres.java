@@ -1,3 +1,4 @@
+package Tarefas;
 import java.util.Scanner;
 
 public class TarefaTres {
@@ -6,11 +7,11 @@ public class TarefaTres {
         float m, c;
         
         System.out.println("Digite um numero: ");
-        m = input.nextfloat();
+        m = input.nextFloat();
 
+        c = m * 100;
 
-        
-
-
+        System.out.print("convertido em cm é " + c + "\n" );
+      
     }
 }

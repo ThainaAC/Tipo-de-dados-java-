@@ -1,3 +1,4 @@
+package Tarefas;
 import java.util.Scanner;
 
 public class TarefaDois
