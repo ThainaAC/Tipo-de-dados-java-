@@ -16,26 +16,23 @@ public class TarefaDois
     
         imc = Peso / (Altura * Altura);
         
-        if (Peso < 18.5){
+        if (imc < 18.5){
             System.out.print("Abaixo do peso" );
-        } else if (Peso < 18.5 && Peso >  24.9  ){
+        } else if (imc < 18.5 && imc >  24.9  ){
             System.out.print("Peso normal" );
-        }else if (Peso < 25.0 && Peso >  29.9  ){
+        }else if (imc < 25.0 && imc >  29.9  ){
             System.out.print("Sobrepeso" );
-        }  else if (Peso < 30.0 && Peso >  34.9){
+        }  else if (imc < 30.0 && imc >  34.9){
             System.out.print("Obesidade grau 1" );
-        }else if (Peso < 35.0 && Peso >  39.9){
+        }else if (imc < 35.0 && imc >  39.9){
             System.out.print("Obesidade grau 2" );
-        }else if (Peso > 40.0 ){
+        }else if (imc > 40.0 ){
             System.out.print("Obesidade grau 3 (mórbida)");
         }
         
-
         System.out.printf(" \n O seu peso é: " + Peso + "\n");    
         System.out.printf("Sua altura  é: " + Altura + "\n");
         System.out.printf(" \n  " + imc + "\n");
-        
 
-
-}
+    }
  }
