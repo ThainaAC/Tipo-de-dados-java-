@@ -5,14 +5,14 @@ public class TarefaDois
     public static void main(String[] args){
     
         Scanner input = new Scanner(System.in);
-        double Peso, Altura, imc;
+        Float  Peso, Altura, imc;
 
 
         System.out.println("Informe seu peso: ");
-        Peso = input.nextDouble();
+        Peso = input.nextFloat();
 
         System.out.println("Informe sua altura: ");
-        Altura = input.nextDouble();
+        Altura = input.nextFloat();
     
         imc = Peso / (Altura * Altura);
         
