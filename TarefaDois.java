@@ -18,9 +18,9 @@ public class TarefaDois
         
         imc = Peso / (Altura * Altura);
 
-        System.out.printf(" \n O seu peso é: = " + Peso "\n");    
-        System.out.printf("Seu primeiro numero foi = " + Altura "\n");
-        System.out.printf(" \n Seu segundo numero foi  = " + imc  "\n");
+        System.out.printf(" \n O seu peso é: = " + Peso + "\n");    
+        System.out.printf("Seu primeiro numero foi = " + Altura + "\n");
+        System.out.printf(" \n Seu segundo numero foi  = " + imc + "\n");
         
 
 }
